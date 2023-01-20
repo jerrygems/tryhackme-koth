@@ -19,7 +19,9 @@ To automate putting ur username inside king.txt and make sure that there's no us
 ```
 #!/bin/bash
 while :
-do
+do      
+        eval "chmod 755 /root/king.txt"
+        eval "chattr -i /root/king.txt"
         eval "echo [usernameHere] >> /root/king.txt"
         eval " > /root/king.txt"
 done
@@ -28,7 +30,7 @@ done
 ```
 or by simpler way
 ```
-while [[ $(cat /root/king.txt) != "[usernameHere]" ]]; do echo "[usernamehere]" >> /root/king.txt; done
+while [[ $(cat /root/king.txt) != "[usernameHere]" ]]; do chmod 755 /root/king.txt; chattr -aie /root/king.txt; echo "[usernamehere]" >> /root/king.txt; done
 
 #this script is created in less than minute :P
 
