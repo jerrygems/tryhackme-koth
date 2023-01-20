@@ -43,7 +43,7 @@ and below command can be used to get persistence on the system but run it after 
 
 So this one trick is to check, what loop is running if it is not yours then how you can find that loop and kill it<br>
 <i><b>so for this you can check proccesses running on top in "top" command the running proccesses will be there with their PIDs</b></i>
-and then...
+and then...<br>
 `kill -9 PID_OF_LOOP`
 
 <i><b>there is another version of htop is also available in our machines that is "htop" but "htop" may not be available on koth machines</b></i>
