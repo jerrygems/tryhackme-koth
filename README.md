@@ -33,6 +33,7 @@ or by simpler way
 while [[ $(cat /root/king.txt) != "[usernameHere]" ]]; do chmod 755 /root/king.txt; chattr -aie /root/king.txt; echo "[usernamehere]" >> /root/king.txt; done
 
 #this script is created in less than minute :P
+# or if someone already have patched the "echo" command then you can use lessecho for that lessecho is a alternate of echo command
 
 ```
 
