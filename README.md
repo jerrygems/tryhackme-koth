@@ -52,7 +52,7 @@ and then...<br>
 
 `kill -9 PID_OF_LOOP`
 
-<i><b>there is another version of htop is also available in our machines that is "htop" but "htop" may not be available on koth machines</b></i>
+<i><b>there is another version of top is also available in our machines that is "htop" but "htop" may not be available on koth machines</b></i>
 
 
 #SimpleButEffective
